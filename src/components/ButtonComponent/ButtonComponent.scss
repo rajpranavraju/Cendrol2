@@ -1,0 +1,51 @@
+.yellowOval{
+box-sizing: border-box;
+position: absolute;
+height: 40px;
+left: 42.19%;
+right: 42.19%;
+top: 150px;
+bottom: 84.5%;
+cursor: pointer;
+background: #FBC115;
+box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+border-radius: 29px;
+  p{
+    // position: absolute;
+height: 15px;
+left: 45.78%;
+right: 45.78%;
+margin-top: 10px;
+// top: calc(50% - 15px/2 - 1062px);
+
+font-family: 'Roboto Condensed';
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #000000;
+  }
+}
+
+.blackOval{
+  width: 152px;
+  height: 40px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 85.5%;
+  top: 10px;
+background: #000000;
+border-radius: 22.5px;
+text-align: center;
+cursor: pointer;
+p{
+margin-top: 10px;
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: -0.571429px;
+color: #FFFFFF;
+}
+}
