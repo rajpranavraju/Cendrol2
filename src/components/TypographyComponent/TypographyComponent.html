@@ -1,0 +1,20 @@
+<div> 
+    <!-- <HeaderComponent></HeaderComponent>
+    <MainScreen></MainScreen> -->
+    <div v-if="type==='largeText'" :style="{'color':col}" class="largeText">
+       {{textContent}}
+    </div>
+    <div v-if="type==='mediumText'" :style="{'color':col}" class="mediumText">
+        {{textContent}}
+    </div> 
+    <div v-if="type==='mediumBold'" :style="{'color':col}" class="mediumBold">
+      {{textContent}}
+  </div> 
+    <div v-if="type==='smallText'" :style="{'color':col,'text-align':itemAlign,'font-size':size}"  class="smallText">
+      {{textContent}}
+  </div> 
+  <div v-if="type==='smallBold'" :style="{'color':col}"  class="smallBold">
+   {{textContent}}
+</div> 
+  
+</div>

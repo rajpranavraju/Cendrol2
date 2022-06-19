@@ -1,11 +1,9 @@
 .pictureBox {
     box-sizing: border-box;
-    position: absolute;
-    height: 100%;
-    min-height: 766px;
-    left: 0%;
-    right: 0%;
-    top: 65px;
+    // position: absolute;
+    position: relative;
+    height: 100vh;
+    // min-height: 766px;
     background-color: #726969;
     overflow: hidden;
     // bottom: 74.71%;
@@ -28,33 +26,64 @@
 
     }
 }
+.pointFrame {
+  width: 186px;
+  height: 75px;
+  box-sizing: border-box;
+
+position: absolute;
+left: 79.75%;
+right: 6.72%;
+top: 82px;
+bottom: 94.94%;
+
+background: #FFFFFF;
+border-radius: 2px;
+ p{
+  position: absolute;
+  height: 20px;
+  width: 150px;
+  /* left: 79.69%; */
+  /* right: 7.42%; */
+  left: 12px;
+  top: 6px;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+ }
+}
+.pointTri{
+  width: 12px;
+  height: 12px;
+  position: absolute;
+left: 81.5%;
+right: 18.52%;
+top: 77px;
+bottom: 97.23%;
+
+background: #FFFFFF;
+transform: rotate(42deg);
+}
 .layerOver{
-    display: flex;
-    box-sizing: border-box;
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    // top: 65px;
-    margin-top: 13%;
-    justify-content: center;
+  display: flex;
+  box-sizing: border-box;
+  left: 0%;
+  right: 0%;
+  margin-top: 11%;
+  top: 15%;
+  justify-content: center;
+  position: absolute;
     .mainHeading{
-        position: relative;
-        z-index: 1;
-        height: 57px;
-        // margin-top: 70px;
-        // margin-bottom: 20px;
-        
-        
-        // left: 26.48%;
-        // right: 26.41%;
-        // top: 250px;
-        // top: calc(50% - 57px/2 - 1197px);
-        
-        font-family: 'Roboto Condensed';
-        font-size: 48px;
-        line-height: 56px;
-        text-align: center;
-        color: #FFFFFF;
+      position: relative;
+      z-index: 1;
+      height: 57px;
+      font-family: 'Roboto Condensed';
+      font-size: 48px;
+      line-height: 56px;
+      text-align: center;
+      color: #FFFFFF;
         }
         .mainContent{
             position: absolute;
@@ -77,95 +106,69 @@ color: #FFFFFF;
 
 .spotLight{
     box-sizing: border-box;
-    position: absolute;
-    height: 1139px;
+    height: 1050px;
     left: 0%;
     right: 0%;
     top: 100vh;
     background: #F8F8F7;
-    // margin-top: 100%;
-    // bottom: 39.54%;
-
-background: #F8F8F7;
+    background: #F8F8F7;
   .subHeading1{
-    position: absolute;
-left: 17.73%;
-right: 17.58%;
-top: 90px;
-// bottom: 72.33%;
+    padding-top: 70px;
+    // margin-top: 70px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Condensed';
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: normal;
 
-font-family: 'Roboto Condensed';
-font-size: 48px;
-line-height: 56px;
-/* identical to box height */
+    text-align: center;
 
-text-align: center;
-
-color: #000000;
+    color: #000000;
   }
   .subContent1{
-    position: absolute;
-left: 19.92%;
-right: 19.69%;
-top: 150px;
-// bottom: 70.43%;
-
-font-family: 'Karla';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-/* or 162% */
-
-text-align: center;
-letter-spacing: -0.4px;
-
-color: #000000;
-
-mix-blend-mode: normal;
-opacity: 0.9;
+    display: block;
+    margin: auto;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.9;
   }
   .imageWrap{
     overflow: hidden;
-    // display: inline-block;
     position: relative;
-    top: 200px;
-    // width: 415px;
-    // height: 513px;
-    // margin: auto;
-    // background: url("../../assets/packaging.png");
+    top: 56px;
     span{
-height: 24px;
-position: absolute;
-font-family: 'Karla';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 23px;
-/* identical to box height */
-
-letter-spacing: -0.545455px;
-color: #000000;
-mix-blend-mode: normal;
-opacity: 0.9;
-left: 0px;
+    height: 24px;
+    position: absolute;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.545455px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    left: 0px;
     }
     p{
       position: absolute;
       left: 0px;
       font-family: 'Karla';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-/* or 138% */
-
-letter-spacing: -0.4px;
-
-color: #000000;
-
-mix-blend-mode: normal;
-opacity: 0.9;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      letter-spacing: -0.4px;
+      color: #000000;
+      mix-blend-mode: normal;
+      opacity: 0.9;
     }
     .packageImg{
        display: block;
@@ -193,14 +196,8 @@ opacity: 0.9;
         p {
           top: 90px;
         }
-        // position: relative;
-    // left: 2%;
-    // right: 81.8%;
-    // top: 150px;
-    // bottom: 65.36%;
       }
       .testedImg{
-        // display: inline-block;
         width: 300px;
         height: 100px;
         position: absolute;
@@ -217,11 +214,6 @@ opacity: 0.9;
         p{
           top: 80px;
         }
-        // position: relative;
-    // left: 2%;
-    // right: 81.8%;
-    // top: 150px;
-    // bottom: 65.36%;
       }
       .adulfeeImg{
         width: 300px;
@@ -260,6 +252,42 @@ opacity: 0.9;
           top:83px;
         }
       }
+  }
+  .spotlightFooter{
+    width: 410px;
+    margin: auto;
+    margin-top: 30px;
+    img {
+      height: 24px;
+      width: 34px;
+      margin-top: 15px;
+    }
+    .bistext{
+      display: inline;
+      margin-left: 10px;  
+      font-family: 'Karla';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+      text-align: center;
+    }
+    .learnMoreText{
+      height: 22px;
+      left: 45.47%;
+      right: 47.27%;
+      margin-top: 8px;
+      font-family: 'Karla';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 21px;
+      text-align: center;
+      letter-spacing: -0.45px;
+      cursor: pointer;
+
+      color: #E1A802;
+    }
   }
 
 }

@@ -12,6 +12,9 @@ props: {
     }
 },
 data() {
+    return{
+        
+    }
 
 },
 computed: {

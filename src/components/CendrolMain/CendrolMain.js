@@ -1,12 +1,18 @@
 import HeaderComponent from '../HeaderComponent/HeaderComponent.vue'
 import MainScreen from '../MainScreen/MainScreen.vue'
+import FormComponent from '../FormComponent/FormComponent.vue'
+
 export const CendrolMain = {
 
 components: {
 HeaderComponent,
-MainScreen
+MainScreen,
+FormComponent
 },
 data() {
+    return{
+        
+    }
 
 },
 computed: {

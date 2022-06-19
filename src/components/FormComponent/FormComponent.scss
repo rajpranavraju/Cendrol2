@@ -1,0 +1,123 @@
+.bottomSection {
+  position: relative;
+.imageArea{
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 860px;
+  overflow: hidden;
+background-color: #817c7c;
+opacity: 0.9;
+img {
+  mix-blend-mode: multiply;
+
+}
+}
+.layerOver{
+  position: absolute;
+    width: 70vw;
+    height: 200px;
+    margin: 0px;
+    left: 15vw;
+    right: 15vw;
+    top: 135px;
+    justify-content: center;
+}
+.mainFormArea {
+  box-sizing: border-box;
+  width: 900px;
+  height: 800px;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 0%;
+  bottom: 5.75%;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  margin: auto;
+  .formPreBook {
+    margin: 34px 0px 0px 74px;
+  }
+  .contactDet {
+    margin: 29px 0px 0px 74px;
+  }
+  .fullname {
+    display: inline-block;
+    margin: 15px 0px 0px 74px;
+  }
+  .phone {
+    display: inline-block;
+    margin: 0px 0px 0px 379px;
+  }
+  .rightTextField{
+    display: inline-block;
+    margin: 0px 74px 8px 74px
+  }
+  .phoneForm{
+    display: inline-block;
+    margin: 0px 74px 8px 77px
+  }
+  .emailText {
+    display: inline-block;
+    margin: 0px 0px 0px 418px;
+  }
+  button{
+    background: #F2F2F2;
+    height: 32px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    border: 0.5px solid #000000;
+    border-radius: 1px;
+  }
+  .typeOfSand{
+    display: inline-block;
+    margin: 15px 200px 0px 74px;
+  }
+  .quantityText{
+    display: inline-block;
+    margin: 0px 130px 0px 160px;
+  }
+  .button1{
+    margin-left: 74px;
+    width:120px;
+ 
+  }
+  .button2{
+   width:177px;
+   margin-right: 74px;
+  }
+  .measureText{
+    display: inline-block;
+    margin-left: 292px;
+    margin-right: 150px;
+  }
+  .constructionText{
+    display: inline-block;
+    margin-left: 365px;
+  }
+  .builtupText{
+    margin: 15px 200px 0px 74px;
+    margin-left: 75px;
+
+  }
+  .builtupForm{
+    margin-left: 75px;
+
+  }
+  .submitButton{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto auto auto;
+  }
+}
+}
+.emptyBottom{
+  width: 100%;
+  height: 400px;
+}
+.footerArea{
+  width: 100%;
+  height: 300px;
+  background-color: #1E1E1E;
+}

@@ -1,0 +1,54 @@
+<div class="bottomSection">
+
+<div class="imageArea">
+<img src = "../../assets/img_tractor.png"/>
+</div>
+<div class="layerOver">
+    <TypographyComponent type="largeText" textContent="Free delivery in 3 hours across  Bangalore" col='#FFFFFF'></TypographyComponent>
+    <TypographyComponent type="smallText" textContent='We have too many orders , book now to get it as soon as we bring our first' col='#FFFFFF'></TypographyComponent>
+    <TypographyComponent type="smallText" textContent='shipment to India/Karnataka' col='#FFFFFF'></TypographyComponent>
+    <TypographyComponent style="margin-top:10px" type="smallText" textContent='You can also pre order by calling 080 339 23113' col='#FBC115'></TypographyComponent>
+
+</div>
+<div class="mainFormArea">
+    <TypographyComponent class='formPreBook' type="mediumBold" textContent="Pre book your Cendrol sand now"></TypographyComponent>
+    <TypographyComponent class='contactDet' type="smallBold" textContent="Contact details"></TypographyComponent>
+
+    <TypographyComponent class='fullname' type="smallText" textContent="Full name" itemAlign="left" ></TypographyComponent> 
+    <TypographyComponent class='phone' type="smallText" textContent="Phone" itemAlign="left"></TypographyComponent>
+    <FormFieldComponent  class='rightTextField' type="textBox" placeholderText="Aabhas Iyengar" colVal="red" @input="inputHandler($event,'name')" :validate="checkname" :submitted="submitClicked"></FormFieldComponent>
+    <FormFieldComponent  class='phoneForm' type="textBox" placeholderText="Phone Num" :validate='checkphone' @input="inputHandler($event,'phone')" :submitted="submitClicked" ></FormFieldComponent>
+    <TypographyComponent class='fullname' type="smallText" textContent="I am" itemAlign="left"></TypographyComponent>
+    <TypographyComponent class='emailText' type="smallText" textContent="Email" itemAlign="left"></TypographyComponent>
+    <FormFieldComponent  class='rightTextField' type="selectBox" :items="userType" ></FormFieldComponent>
+    <FormFieldComponent  class='phoneForm' type="textBox" placeholderText="email" :validate="checkemail" @input="inputHandler($event,'email')" :submitted="submitClicked"></FormFieldComponent>
+
+    <TypographyComponent class='contactDet' type="smallBold" textContent="order details"></TypographyComponent>
+    <TypographyComponent class='typeOfSand' type="smallText" textContent="Type of sand" itemAlign="left"></TypographyComponent>
+    <TypographyComponent class='quantityText' type="smallText" textContent="Quantity" itemAlign="left"></TypographyComponent>  
+    <button class="button1">All Purpose</button>    <button class="button2">Plastering Exclusivde</button>
+    <FormFieldComponent  class='rightTextField' type="textBox" placeholderText="Quantity" :validate="checkQty" @input="inputHandler($event,'qty')" :submitted="submitClicked"></FormFieldComponent>
+
+    <TypographyComponent class='fullname' type="smallText" textContent="Construction location" itemAlign="left"></TypographyComponent> 
+    <TypographyComponent class='measureText' type="smallText" textContent="Site Measurement" itemAlign="left"></TypographyComponent>
+    <FormFieldComponent  class='rightTextField' type="textBox" placeholderText="location" :validate="checkLocation" @input="inputHandler($event,'location')" :submitted="submitClicked"></FormFieldComponent>
+    <FormFieldComponent  class='phoneForm' type="textBox" placeholderText="Measurement" :validate="checkMeasurement" @input="inputHandler($event,'measurement')" :submitted="submitClicked"></FormFieldComponent>
+
+    <TypographyComponent class='fullname' type="smallText" textContent="Total Floors" itemAlign="left"></TypographyComponent> 
+    <TypographyComponent class='constructionText' type="smallText" textContent="Construction stage" itemAlign="left"></TypographyComponent>
+    <FormFieldComponent  class='rightTextField' type="textBox" placeholderText="Floors" :validate="checkFloors" @input="inputHandler($event,'floors')" :submitted="submitClicked" ></FormFieldComponent>
+    <FormFieldComponent  class='rightTextField' type="selectBox" :validate="checkStage" :items="stageType" ></FormFieldComponent>
+
+    
+    <TypographyComponent class='builtupText' type="smallText" textContent="Total builtup area" itemAlign="left"></TypographyComponent> 
+    <FormFieldComponent  class='builtupForm' type="textBox" placeholderText="Area" :validate="checkArea" @input="inputHandler($event,'area')" :submitted="submitClicked"></FormFieldComponent>
+
+    <ButtonComponent class='submitButton' type="submit" @click.native="submitHandler"></ButtonComponent>
+
+
+
+</div>
+<div class="emptyBottom"></div>
+<div class="footerArea"></div>
+
+</div>

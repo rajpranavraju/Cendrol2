@@ -1,0 +1,13 @@
+<div> 
+    <!-- <HeaderComponent></HeaderComponent>
+    <MainScreen></MainScreen> -->
+    <div v-if="type==='textBox'" >
+       <input type='text' :placeholder="placeholderText"  class="textBox" :style="{'border-color':validateColor,  'outline-color': validateColor}" @focus="focusHandler" @input="inputHandler($event)"></input>
+    </div>
+    <div v-if="type==='selectBox'" >
+      <select name="userType" id="utype" class="selectBox">
+        <option v-for="item in items" value="item">{{item}}</option>
+      </select>
+   </div>
+  
+</div>

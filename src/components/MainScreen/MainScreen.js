@@ -1,12 +1,13 @@
 import ButtonComponent from '../ButtonComponent/ButtonComponent.vue'
-
+import TypographyComponent from '../TypographyComponent/TypographyComponent.vue'
 // import CendrolLogo from '../assets/cendrollogo1.png'
 
 
 export const MainScreen = {
 
 components: {
-    ButtonComponent
+    ButtonComponent,
+    TypographyComponent
 },
 data() {
     return{
